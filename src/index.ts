@@ -38,8 +38,8 @@ export class XMindEmbedViewer {
       isPitchModeDisabled
     } = args
 
-    const iframeController = new IframeController(el, `https://www.xmind.app/embed-viewer${ isPitchModeDisabled ? '?pitch-mode=disabled' : ''}`)
-    const iframeEventChannelController = new IframeEventChannelController(iframeController, 'https://www.xmind.app')
+    const iframeController = new IframeController(el, `https://www.xmind.cn/embed-viewer${ isPitchModeDisabled ? '?pitch-mode=disabled' : ''}`)
+    const iframeEventChannelController = new IframeEventChannelController(iframeController, 'https://www.xmind.cn')
 
     this.iframeController = iframeController
     this.iframeEventChannelController = iframeEventChannelController
